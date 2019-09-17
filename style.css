@@ -124,6 +124,7 @@ h3 {
  padding:0;
  box-sizing: border-box;
 }
+
 #titre{
    font-family: Satisfy, cursive;
    font-size: 3.0em;
@@ -131,6 +132,7 @@ h3 {
    justify-content: center;
    color:green;
 }
+
 section{
    margin-top:3rem;
    display: flex;
@@ -141,11 +143,11 @@ section{
    align-content: space-between;
    background-color: white;
 }
-img{
- height:500px;
- width:500px;
+.image1{
+    height:500px;
+    width:500px;
 }
-a {
+.action a {
    display:flex;
    justify-content:center;
    color:green;
