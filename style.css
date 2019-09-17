@@ -20,8 +20,13 @@ body {
     min-height: 100%;
 }
 
+h2 {
+    font-family: 'Satisfy', cursive;
+}
 
-
+h3 {
+    font-family: 'Satisfy', cursive;
+}
 
 
 /* ----------------------NAV-------------------------------------*/
@@ -62,22 +67,92 @@ body {
 
 /* ----------------------FORMULAIRE-------------------------------------*/
 
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+}
 
+form div {
+    display: flex;
+}
 
+label {
+    display: block;
+    width: 5rem;
+    text-align: right;
+    margin: 1rem;
+    text-transform: uppercase;
+}
 
+input {
+    border-radius: 7px;
+    width:40rem;
+    margin: 1rem;
+}
 
+textarea {
+    border-radius: 7px;
+    width:40rem;
+    height:10rem;
+    margin: 1rem;
+}
 
-
-
-
+button {
+    margin:5px;
+    padding: 5px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
 
 /* ----------------------FOOTER-------------------------------------*/
 
+footer {
+    background-color: #436439;
+    color:#ffffff;
+    margin-top: auto;   
+    padding: 10px 5px 5px 5px;
+    display: flex;
+    justify-content: space-around;
+}
 
+footer a {
+    color: #ffffff;  
+}
 
+.item {
+    width:30%;
+}
 
+.justify {
+    text-align: justify;
+}
 
+.links {
+    margin-top: 50px;
+    display:flex;
+    align-items: center;
+}
 
+.links p {
+    margin:5px;
+}
+
+.links a {
+    margin: 5px;
+}
+
+.network {
+    border-radius: 50px;
+    height:50px;
+    width:50px;
+}
+
+/* ----------------------VERSION MOBILE-------------------------------------*/
 
 @media only screen and (max-width: 960px) {
 
