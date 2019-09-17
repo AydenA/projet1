@@ -273,7 +273,7 @@ footer {
 }
 
 .networks {
-    border-bottom: solid 1px #000000;
+    border-bottom: solid 1px #3b5833;
     padding:1rem 0 1rem 0;
 }
 
@@ -287,13 +287,13 @@ footer {
 }
 
 .links p {
-    border-bottom: solid 1px #000000;
+    border-bottom: solid 1px #3b5833;
     padding-bottom: 1.5rem;
 }
 
 .links a {
     display: block;
-    border-bottom: solid 1px #000000;
+    border-bottom: solid 1px #3b5833;
     padding: 1rem;
 }
 
