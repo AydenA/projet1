@@ -60,14 +60,56 @@ h3 {
 
 /* ----------------------GESTION DES DECHETS-------------------------------------*/
 
+.imgC{
+    width: 300px;
+    float: left;
+    margin: 20px;
+    
+    
+    
+}
+section {
+    display: flex;
+    flex-direction: column;
+}
+div {
+    display:inline;
+}
+.pCollecte{
+    width: 600px;
+    float: left;
+    margin: 20px
+}
+    
+.imgPc{
+    width: 300px;
+    float: right;
+    margin: 20px;
+    
+}
+.texte{
+    width: 700px;
+    float: right;
+    background-color:beige;
+    margin: 20px;
+    text-align: justify
 
-
-
-
-
-
-
-
+}
+p {
+    width: 1300px;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+}
+h3{
+    width: 1300px;
+    text-align: center;
+    color: lightslategray;
+    font-family: 'Satisfy', cursive;
+   
+}
+.fond {
+    background-color: lightgreen;
+}
 
 /* ----------------------FORMULAIRE-------------------------------------*/
 
