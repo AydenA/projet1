@@ -15,7 +15,80 @@ body, html {
 
 /* ----------------------NAV-------------------------------------*/
 
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    padding: 0;
+    display: flex; 
+    justify-content: flex-start;   
+    align-items: center;
+}
 
+
+.logo-green {
+    width: 65px;
+    padding: 10px;
+}
+
+.liens {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+}
+
+.liens a {
+    text-decoration: none;
+    padding: 0.5em;
+    margin-left: 1em;
+    font-weight: 550;
+    font-size: 1.1em;
+    color: #a8bb4e;
+}
+
+.liens a:hover{
+    border-bottom: 2px #a8bb4e solid;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.icon-burger, .close-burger {
+    display: none;
+    margin-left: auto;
+    padding: 20px;
+}
+
+.close-burger img {
+    width: 15px;
+}
+
+.icon-burger img {
+    width: 35px;
+}
+
+.banner {
+    height: 400px;
+    background: no-repeat center / cover url("https://images.unsplash.com/photo-1526797072-6f5b4aec8421?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"); 
+    box-shadow: 5px 5px 15px #4a6602;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.banner-text {
+    font-size: 450%;
+    color: white;
+    padding: 10px 20px;
+    border-bottom: 2px white solid;
+    text-shadow: 0 0 0.2em #16772c;
+    font-family: 'Satisfy', cursive;
+
+}
 
 
 
