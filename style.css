@@ -28,6 +28,7 @@ h2 {
 
 h3 {
     font-family: 'Satisfy', cursive;
+    color: lightslategray;
     font-size: 1.5em;
 }
 
@@ -168,14 +169,54 @@ h3 {
 
 /* ----------------------GESTION DES DECHETS-------------------------------------*/
 
+section {
+    display: flex;
+    flex-direction: column;
+}
 
+div {
+    display: inline-block;
+}
+.imgC{
+    width: 400px;
+    float: left;
+    margin: 30px;  
+    padding: 0px;
+    border-radius: 10px  
+}
+.pCollecte{
+    width: 600px;
+    float: left;
+    margin: 30px;
+    padding: 10px
+}
+    
+.imgPc{
+    width: 400px;
+    float: right;
+    margin: 30px;
+    padding: 0px;
+    border-radius: 10px
+    
+}
+.texte{
+    width: 50%;
+    float: right;
+    background-color:beige;
+    margin: 30px;
+    padding: 20px;
+    text-align: left
 
+}
+p {
+    width: 1300px;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+}
 
-
-
-
-
-
+.fond {
+    background-color: lightgreen;
+}
 
 /* ----------------------FORMULAIRE-------------------------------------*/
 
@@ -281,6 +322,27 @@ footer a {
 /* ----------------------VERSION MOBILE-------------------------------------*/
 
 @media only screen and (max-width: 960px) {
+
+/************************* GESTION ******************************************/
+.imgC{
+    display: flex;
+    width: 200px
+}
+.imgPc{
+    display: flex;
+    width: 200px
+
+}
+.texte{
+    display: inline ;
+    margin: 10px
+}
+.pCollecte {
+    display: flex;
+    margin: 10px
+    
+}
+
 
 /* ---------------------- FORMULAIRE ---------------------------------------*/
 
