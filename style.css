@@ -264,7 +264,8 @@ textarea {
 footer {
     display: flex;
     flex-direction: column-reverse;
-    align-items: center;      
+    align-items: center;
+    padding: 100px;      
 }
 
 .item {
