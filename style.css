@@ -136,38 +136,43 @@ h3 {
 
 /* ----------------------GESTION DES DECHETS-------------------------------------*/
 
-.imgC{
-    width: 300px;
-    float: left;
-    margin: 20px;    
-}
-
 section {
     display: flex;
     flex-direction: column;
 }
 
 div {
-    display:inline;
+    display: inline-block;
+}
+.imgC{
+    width: 400px;
+    float: left;
+    margin: 30px;  
+    padding: 0px;
+    border-radius: 10px  
 }
 .pCollecte{
     width: 600px;
     float: left;
-    margin: 20px
+    margin: 30px;
+    padding: 10px
 }
     
 .imgPc{
-    width: 300px;
+    width: 400px;
     float: right;
-    margin: 20px;
+    margin: 30px;
+    padding: 0px;
+    border-radius: 10px
     
 }
 .texte{
-    width: 700px;
+    width: 50%;
     float: right;
     background-color:beige;
-    margin: 20px;
-    text-align: justify
+    margin: 30px;
+    padding: 20px;
+    text-align: left
 
 }
 p {
@@ -270,6 +275,27 @@ footer a {
 /* ----------------------VERSION MOBILE-------------------------------------*/
 
 @media only screen and (max-width: 960px) {
+
+/************************* GESTION ******************************************/
+.imgC{
+    display: flex;
+    width: 200px
+}
+.imgPc{
+    display: flex;
+    width: 200px
+
+}
+.texte{
+    display: inline ;
+    margin: 10px
+}
+.pCollecte {
+    display: flex;
+    margin: 10px
+    
+}
+
 
 /* ---------------------- FORMULAIRE ---------------------------------------*/
 
