@@ -19,6 +19,7 @@ body {
     display:flex;
     flex-direction:column;
     min-height: 100%;
+    background-image: url(img/ripples.png)
 }
 
 h2 {
@@ -36,6 +37,7 @@ h3 {
 
 .bg {
     background-color:#D4E39C;
+    opacity: 0.8;
 }
 
 
