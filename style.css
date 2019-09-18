@@ -24,6 +24,8 @@ body {
 h2 {
     font-family: 'Satisfy', cursive;
     font-size: 2em;
+    font-size: 3.0em;
+    color:green;
 }
 
 h3 {
@@ -121,18 +123,11 @@ h3 {
 /* ----------------------ACTIONS-------------------------------------*/
 
 
-*{
- margin:0;
- padding:0;
- box-sizing: border-box;
-}
 
-#titre{
-   font-family: Satisfy, cursive;
-   font-size: 3.0em;
+
+.titre{
    display:flex;
    justify-content: center;
-   color:green;
    margin-top: 50px;
 }
 
@@ -145,21 +140,29 @@ h3 {
    align-items:stretch;
    align-content: space-between;
    background-color: white;
+   margin-bottom: 50px;
 }
+
 .image1{
     height:350px;
     width:350px;
     border-radius:100px;
-
 }
+
 .actions a {
    display:flex;
    justify-content:center;
    color:green;
-   font-family: Satisfy, cursive;
+   font-family: 'Roboto', sans-serif;
    font-size: 2em;
+   text-transform:uppercase;
+   margin-top: 20px;
 }
 
+.image1:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
 
 
 
@@ -410,8 +413,23 @@ footer {
 }
 
 
-/*-------------------------------------------------------------------------------*/
+/*--------------------------ACTIONS-----------------------------------------------------*/
 
+.image1{
+    height:300px;
+    width:300px;
+    border-radius:100px;
+
+}
+
+.actions a{
+    margin-bottom: 20px;
+}
+
+.actions {
+    margin-bottom: 20px;
+    font-size: 0.8em;
+}
 
 }
 
