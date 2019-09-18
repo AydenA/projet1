@@ -43,7 +43,7 @@ h3 {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, .9);;
     padding: 0;
     display: flex; 
     justify-content: flex-start;   
@@ -121,13 +121,7 @@ h3 {
 /* ----------------------ACTIONS-------------------------------------*/
 
 
-*{
- margin:0;
- padding:0;
- box-sizing: border-box;
-}
-
-#titre{
+.titre{
    font-family: Satisfy, cursive;
    font-size: 3.0em;
    display:flex;
