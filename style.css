@@ -121,7 +121,44 @@ h3 {
 /* ----------------------ACTIONS-------------------------------------*/
 
 
+*{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+}
 
+#titre{
+   font-family: Satisfy, cursive;
+   font-size: 3.0em;
+   display:flex;
+   justify-content: center;
+   color:green;
+   margin-top: 50px;
+}
+
+.actions{
+   margin-top:2rem;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content:space-around;
+   align-items:stretch;
+   align-content: space-between;
+   background-color: white;
+}
+.image1{
+    height:350px;
+    width:350px;
+    border-radius:100px;
+
+}
+.actions a {
+   display:flex;
+   justify-content:center;
+   color:green;
+   font-family: Satisfy, cursive;
+   font-size: 2em;
+}
 
 
 
