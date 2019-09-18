@@ -231,6 +231,14 @@ footer a {
     width:50px;
 }
 
+
+
+
+
+
+
+
+
 /* ----------------------VERSION MOBILE-------------------------------------*/
 
 @media only screen and (max-width: 960px) {
@@ -320,7 +328,7 @@ footer {
     position: absolute;
     background-color: white;
     width: 90vw;
-    height: 40vh;
+    height: 100vh;
     top: 50px;
     align-items: flex-start;
     top: 0;
@@ -336,6 +344,10 @@ footer {
    
 }
 
+.liens:target .liens {
+    padding-top: 50px;
+}
+
 .liens:target a {
     text-align: center;
     margin: 0;
@@ -348,7 +360,7 @@ footer {
 
 .liens:target .close-burger {
     position: absolute;
-    right: 5vw;
+    right: 3vw;
 }
 
 
