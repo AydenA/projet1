@@ -23,10 +23,12 @@ body {
 
 h2 {
     font-family: 'Satisfy', cursive;
+    font-size: 2em;
 }
 
 h3 {
     font-family: 'Satisfy', cursive;
+    font-size: 1.5em;
 }
 
 .bg {
@@ -162,10 +164,11 @@ form div {
 
 label {
     display: block;
-    width: 5rem;
+    width: 10rem;
     text-align: right;
     margin: 1rem;
     text-transform: uppercase;
+    font-size: 1.5em;
 }
 
 input {
@@ -186,6 +189,9 @@ button {
     padding: 5px;
     text-transform: uppercase;
     border-radius: 5px;
+    background-color: #436439;
+    color:#ffffff;
+    font-size: 1.5em;
 }
 
 /* ----------------------FOOTER-------------------------------------*/
@@ -197,10 +203,12 @@ footer {
     padding: 10px 5px 5px 5px;
     display: flex;
     justify-content: space-around;
+    padding: 30px;
 }
 
 footer a {
-    color: #ffffff;  
+    color: #ffffff;
+
 }
 
 .item {
@@ -264,8 +272,8 @@ textarea {
 footer {
     display: flex;
     flex-direction: column-reverse;
-    align-items: center;
-    padding: 100px;      
+    align-items: center; 
+    padding: 10px;   
 }
 
 .item {
