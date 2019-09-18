@@ -131,10 +131,11 @@ h3 {
    display:flex;
    justify-content: center;
    color:green;
+   margin-top: 50px;
 }
 
-section{
-   margin-top:3rem;
+.actions{
+   margin-top:2rem;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
@@ -144,10 +145,12 @@ section{
    background-color: white;
 }
 .image1{
-    height:500px;
-    width:500px;
+    height:350px;
+    width:350px;
+    border-radius:100px;
+
 }
-.action a {
+.actions a {
    display:flex;
    justify-content:center;
    color:green;
