@@ -177,49 +177,52 @@ h3 {
 
 /* ----------------------GESTION DES DECHETS-------------------------------------*/
 
-section {
-    display: flex;
-    flex-direction: column;
-}
 
-div {
-    display: inline-block;
+
+.conseil {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: space-between;
+   
+    
 }
-.imgC{
-    width: 400px;
-    float: left;
-    margin: 30px;  
-    padding: 0px;
-    border-radius: 10px  
+.collecte {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-between;
+}
+.iConseil{
+   width: 35rem;
+    margin: 20px;  
+    padding: 10px;
 }
 .pCollecte{
-    width: 600px;
-    float: left;
-    margin: 30px;
-    padding: 10px
+   width: 35rem;
+   background-color:beige;
+   margin: 20px;
+   padding: 10px;
 }
     
 .imgPc{
-    width: 400px;
-    float: right;
-    margin: 30px;
-    padding: 0px;
-    border-radius: 10px
+    width: 35rem;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
     
 }
 .texte{
-    width: 50%;
-    float: right;
+    width: 35rem;
     background-color:beige;
-    margin: 30px;
-    padding: 20px;
-    text-align: left
+    margin: 20px;
+    padding: 10px;
+    text-align: left;
+    
 
 }
 
-.fond {
-    background-color: lightgreen;
-}
+
 
 /* ----------------------FORMULAIRE-------------------------------------*/
 
@@ -327,22 +330,38 @@ footer a {
 @media only screen and (max-width: 960px) {
 
 /************************* GESTION ******************************************/
-.imgC{
+.conseil{
     display: flex;
-    width: 200px
+    flex-direction: column;
+    align-items: center;
+   
 }
-.imgPc{
+
+.collecte {
     display: flex;
-    width: 200px
+    flex-direction: column;
+    justify-content: center;
+}
+
+.iConseil {
+    width: 300px;
+    padding: 2px;
+    border-radius: 10px;
 
 }
-.texte{
-    display: inline ;
-    margin: 10px
+
+.imgPc {
+    width: 300px;
+    padding: 2px;
+
 }
 .pCollecte {
-    display: flex;
-    margin: 10px
+    width: 300px;
+    padding: 2px;
+}
+.texte {
+    width: 300px;
+    padding: 2px;
     
 }
 
