@@ -146,7 +146,7 @@ h3 {
 .image1{
     height:350px;
     width:350px;
-    border-radius:100px;
+    border-radius:10px;
 }
 
 .actions a {
@@ -221,6 +221,10 @@ h3 {
     
 
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 680249798b4a5acafe6651069f25dc25e0ba65ca
 
 
 
@@ -493,7 +497,7 @@ footer {
 .image1{
     height:300px;
     width:300px;
-    border-radius:100px;
+    border-radius:10px;
 
 }
 
