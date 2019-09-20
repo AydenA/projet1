@@ -5,7 +5,7 @@
 }
 
 body, html {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -24,20 +24,23 @@ body {
 
 h2 {
     font-family: 'Satisfy', cursive;
-    font-size: 3.0em;
-    color:green;
+    font-size: 4.0em;
+    color:#5BC74A;
     margin-top: 50px;
+    font-weight: 500;
 }
 
 h3 {
     font-family: 'Satisfy', cursive;
     color: lightslategray;
     font-size: 2.5em;
-    margin-top: 50px;
+    margin: 70px 0 50px 0;
+    font-weight: 500;
 }
 
 .bg {
-    background-color:#D4E39C;
+   /* background-color:#D4E39C;*/
+   background-image: url(img/bg.png);
 }
 
 
@@ -73,11 +76,11 @@ h3 {
     margin-left: 1em;
     font-weight: 550;
     font-size: 1.1em;
-    color: #a8bb4e;
+    color: #5BC74A;
 }
 
 .liens a:hover{
-    border-bottom: 2px #a8bb4e solid;
+    border-bottom: 2px #5BC74A solid;
 }
 
 .navbar li {
@@ -144,14 +147,14 @@ h3 {
 .actions a {
     display:flex;
     justify-content:center;
-    color:green;
+    color:#5BC74A;
     font-family: 'Roboto', sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     text-transform:uppercase;
     margin-top: 20px;
     text-decoration: none;
     padding-bottom: 20px;
-    border-bottom: solid 1px green;
+    border-bottom: solid 1px #5BC74A;
 }
 
 .image1:hover{
@@ -160,7 +163,8 @@ h3 {
 }
 
 figcaption:hover{
-    letter-spacing: 0.5em;
+    /*letter-spacing: 0.2em;*/
+    font-weight: 600; 
 }
 
 
@@ -177,46 +181,59 @@ figcaption:hover{
     text-align: justify;
 }
 
+.conseil p:nth-of-type(1) {
+    padding-top: 0px;
+}
+
+.conseil p:nth-of-type(5){
+    padding-bottom: 0px;
+}
+
 .conseil {
     display: flex;
     justify-content: center; 
 }
 
 .iConseil{
-    width: 35rem;
+    width: 500px;
     border-radius: 10px;
     margin:5px;
+    margin-right: 40px;
  }
 
  .texte{
     width:50%;
-    background-color:beige;
-    padding: 20px;
+    /*background-color:beige;*/
+    padding: 0 10px;
     margin: 5px;
+    border-left: 4px #5BC74A solid;     
 }
 
 .collecte {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .pCollecte{
-   width: 50%;
-   background-color:beige;
-   padding: 50px;
+   width: 40%;
+   /*background-color:beige;*/
+   padding: 50px 70px 50px 50px;
    margin: 5px;
    display: flex;
    flex-direction: column;
    justify-content: center;
+
 }
 
 summary {
-    font-size: 2em;
-    font-weight: bold;
+    font-size: 1.3em;
+    color: #3d8732;
+    text-align: left;
 }
 
 summary:hover {
-    letter-spacing: 0.3em;
+    font-weight: 600;
+    /*letter-spacing: 0.3em;*/
 }
 
 details {
@@ -239,7 +256,7 @@ form {
     align-content: center;
     align-items: center;
     text-align: justify;
-    padding: 10px;
+    padding: 10px 10px 70px 10px;
     margin-top: 50px;
 }
 
@@ -253,7 +270,7 @@ label {
     text-align: right;
     margin: 1rem;
     text-transform: uppercase;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 input {
@@ -274,15 +291,16 @@ button {
     padding: 5px;
     text-transform: uppercase;
     border-radius: 5px;
-    background-color: #436439;
+    background-color: #5BC74A;
     color:#ffffff;
     font-size: 1.5em;
+    float: right;
 }
 
 /* ----------------------FOOTER-------------------------------------*/
 
 footer {
-    background-color: #436439;
+    background-color: #3D8732;
     color:#ffffff;
     margin-top: auto;   
     padding: 10px 5px 5px 5px;
@@ -318,6 +336,7 @@ footer a {
 .network {
     height:50px;
     width:50px;
+    margin-right: 10px;
 }
 
 
@@ -331,7 +350,7 @@ footer a {
     }
 
     h3 {
-        margin-top: 0.5em;
+        margin-top: 1em;
     }
 
 /************************* GESTION ******************************************/
@@ -344,7 +363,7 @@ footer a {
 }
 
 .iConseil {
-    width: 90%;
+    width: 70%;
     padding: 2px;
     border-radius: 10px;
 
@@ -390,6 +409,8 @@ form div {
     align-items: center;    
     width:90%;
 }
+
+
 
 label {
     width:auto;
